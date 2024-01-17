@@ -1,0 +1,17 @@
+<!-- res/layout/fragment_with_background_image.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerInside" />
+
+    <!-- Diğer fragment içeriği buraya eklenebilir -->
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<!-- fragment_combined.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Firestore verilerini gösteren layout -->
+    <LinearLayout
+        android:id="@+id/checkboxContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Checkbox'lar buraya eklenecek -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf Çek!"
+        android:backgroundTint="@color/slateblue"/>
+    <!-- Kamera ile çekilen resmi gösteren ImageView -->
+    <ImageView
+        android:id="@+id/capturedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
